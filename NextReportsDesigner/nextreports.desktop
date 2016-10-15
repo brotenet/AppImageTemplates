@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=NextReports
+Icon=nextreports.png
+GenericName=NextReports
+Comment=Standard Reports Editor
+Exec=run.wrapper
+Categories=Development

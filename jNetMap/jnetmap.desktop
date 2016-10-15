@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=jNetMap
+Icon=jnetmap.png
+GenericName=jNetMap
+Comment=Network Design and Mapping Tool
+Exec=run.wrapper
+Categories=Development

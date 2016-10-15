@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=DBeaver
+Icon=dbeaver.png
+GenericName=DBeaver
+Comment=Database Client
+Exec=run.wrapper
+Categories=Development

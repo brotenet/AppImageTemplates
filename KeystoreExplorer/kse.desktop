@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=Keystore Explorer
+Icon=kse.png
+GenericName=Keystore Explorer
+Comment=Keystore File Manager
+Exec=run.wrapper
+Categories=Development

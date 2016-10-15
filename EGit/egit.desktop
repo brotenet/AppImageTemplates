@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=EGit
+Icon=egit.png
+GenericName=EGit
+Comment=GIT Client
+Exec=run.wrapper
+Categories=Development

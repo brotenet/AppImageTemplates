@@ -1,0 +1,2 @@
+# AppImageTemplates
+AppImage Directory Templates

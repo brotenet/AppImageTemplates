@@ -1,0 +1,12 @@
+#!/bin/bash
+
+read -p "Please enter target AppImage directory: " DIR_PATH
+
+sudo chmod -Rv 777 *
+rm -Rv _BUILD/*
+
+./AppImageAssistant $DIR_PATH _BUILD/$DIR_PATH.AppImage
+
+echo ""
+echo "You must refresh the project to view changes."
+read -p "Press any key to close."

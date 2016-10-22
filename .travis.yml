@@ -1,5 +1,1 @@
 language: python
-env:
-install:
-script:
-

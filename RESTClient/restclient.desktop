@@ -2,9 +2,9 @@
 Type=Application
 Encoding=UTF-8
 Terminal=false
-Name=DBeaver
-Icon=dbeaver.png
-GenericName=DBeaver
-Comment=Database Client
+Name=RESTClient
+Icon=restclient
+GenericName=RESTClient
+Comment=REST Service Testing
 Exec=run.wrapper
 Categories=Development

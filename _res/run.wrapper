@@ -26,6 +26,15 @@
 # See http://specifications.freedesktop.org/thumbnail-spec/thumbnail-spec-latest.html#DELETE
 # Possibly move this to the C runtime that is part of every AppImage?
 
+# Exit on errors
+set -e
+
+# Be verbose if $DEBUG=1 is set
+if [ ! -z "$DEBUG" ] ; then
+  env
+  set -x
+fi
+
 THIS="$0"
 args=("$@") # http://stackoverflow.com/questions/3190818/
 NUMBER_OF_ARGS="$#"
@@ -174,11 +183,12 @@ fi
 ABS_APPIMAGE=$(readlink -e "$APPIMAGE")
 ICONURL="file://$ABS_APPIMAGE"
 MD5=$(echo -n $ICONURL | md5sum | cut -c -32)
-ICONFILE="$HOME/.cache/thumbnails/normal/$MD5.png"
+ICONFILE="$HOME/.local/share/icons/$DESKTOPFILE_NAME.png"
 if [ ! -f "$ICONFILE" ] ; then
   echo "$ICONFILE is missing. Probably not running ${THIS} from within an AppImage."
   echo "Hence falling back to using .DirIcon"
-  ICONFILE="$APPDIR/.DirIcon"
+  cp $APPDIR/.DirIcon $HOME/.local/share/icons/$DESKTOPFILE_NAME.png
+  ICONFILE="$HOME/.local/share/icons/$DESKTOPFILE_NAME.png"
 fi
 
 # $XDG_DATA_DIRS contains the default paths /usr/local/share:/usr/share
@@ -256,3 +266,4 @@ if [ -z "$SKIP" ] ; then
   xdg-desktop-menu forceupdate
   gtk-update-icon-cache # for MIME
 fi
+

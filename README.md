@@ -1,5 +1,6 @@
 # AppImage Directory Templates
 
+Ready-to-run pre-packaged versions are available at:
 ### AppImages Repository : https://bintray.com/brotenet/AppImages
 
 ##### Directory Templates of Java, Eclipse based and other applications, ready to be built using the _AppImageAssistant_ tool.

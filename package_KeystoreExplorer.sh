@@ -20,8 +20,6 @@ rm $NAME/usr/bin/kse.sh
 rm $NAME/usr/bin/readme.txt
 mv $NAME/usr/bin/kse.jar $NAME/usr/bin/application.jar
 
-mkdir $NAME/usr/lib/jdk
-cp -r _res/jdk/jre $NAME/usr/lib/jdk/jre
 cp _res/run.wrapper $NAME/usr/bin/run.wrapper
 cp _res/AppRun $NAME/AppRun
 

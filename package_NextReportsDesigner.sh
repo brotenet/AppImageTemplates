@@ -17,8 +17,6 @@ rm download.zip
 mv tmp/*/jdbc-drivers $NAME/usr/lib/jdbc-drivers
 mv tmp/*/lib/* $NAME/usr/lib/
 
-mkdir $NAME/usr/lib/jdk
-cp -r _res/jdk/jre $NAME/usr/lib/jdk/jre
 cp _res/run.wrapper $NAME/usr/bin/run.wrapper
 cp _res/AppRun $NAME/AppRun
 

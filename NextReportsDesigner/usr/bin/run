@@ -4,11 +4,5 @@ export SWT_GTK3=0
 export UBUNTU_MENUPROXY=0
 
 BASE_DIR=${PWD}
-export JDK_HOME=$BASE_DIR/lib/jdk
-export JAVA_HOME=$JDK_HOME/jre
-export PATH=$PATH:$JAVA_HOME/bin
 
-echo "JDK_HOME: " $JDK_HOME
-echo "JAVA_HOME: " $JAVA_HOME
-
-java -Xms128m -Xmx1024m -cp $BASE_DIR/lib/*:$BASE_DIR/jdbc-drivers/*:. ro.nextreports.designer.Main $@
+java -Xms128m -Xmx1024m -cp $BASE_DIR/lib/*:$BASE_DIR/jdbc-drivers/*:. ro.nextreports.designer.Main "$@"

@@ -14,8 +14,6 @@ ARCH=x86_64
 wget $DOWNLOAD_URL -O application.jar
 mv application.jar $NAME/usr/bin/application.jar
 
-mkdir $NAME/usr/lib/jdk
-cp -r _res/jdk/jre $NAME/usr/lib/jdk/jre
 cp _res/run.wrapper $NAME/usr/bin/run.wrapper
 cp _res/AppRun $NAME/AppRun
 

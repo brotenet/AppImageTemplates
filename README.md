@@ -10,5 +10,3 @@ Ready-to-run pre-packaged versions are available at:
 * In case Keystore Explorer shows a requirement message for the Oracle Cryptography Extenesions (JCE), then you can get them from the Oracle Java SE Downloads page at: http://www.oracle.com/technetwork/java/javase/downloads/index.html under the 'Additional Resources' section, and place them in the  **<java-home>/lib/security** directory.
 
 http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html - JDK 1.8 direct link
-
-

@@ -8,7 +8,7 @@ BINTRAY_API_KEY=$3
 
 DOWNLOAD_URL=http://dbeaver.jkiss.org/files/dbeaver-ce-latest-linux.gtk.x86_64.tar.gz
 NAME=DBeaver
-VERSION=3.8.2
+VERSION=3.8.3
 ARCH=x86_64
 
 wget $DOWNLOAD_URL -O download.tar.gz
@@ -17,8 +17,6 @@ tar -xvzf download.tar.gz -C tmp
 mv tmp/*/* $NAME/usr/bin/
 rm download.tar.gz
 
-mkdir $NAME/usr/lib/jdk
-cp -r _res/jdk/jre $NAME/usr/lib/jdk/jre
 cp _res/run.wrapper $NAME/usr/bin/run.wrapper
 cp _res/AppRun $NAME/AppRun
 

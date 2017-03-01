@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=SweetHome3D
+Icon=SweetHome3D
+GenericName=SweetHome3D
+Comment=Interior design application to draw house plans and arrange furniture 
+Exec=run.wrapper
+Categories=Graphics

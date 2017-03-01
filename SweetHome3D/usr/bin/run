@@ -1,0 +1,5 @@
+#!/bin/bash
+
+BASE_DIR=${PWD}
+
+$BASE_DIR/bin/SweetHome3D "$@"

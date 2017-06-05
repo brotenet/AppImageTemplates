@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=GlyphrStudio
+Icon=GlyphrStudio
+GenericName=GlyphrStudio
+Comment=Font Designer
+Exec=run.wrapper
+Categories=Graphics

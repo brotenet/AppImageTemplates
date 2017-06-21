@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=FBMessenger
+Icon=FBMessenger
+GenericName=FBMessenger
+Comment=Facebook Messenger
+Exec=run.wrapper
+Categories=GNOME;GTK;Network;WebBrowser;

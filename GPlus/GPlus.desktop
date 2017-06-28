@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=Google Plus
+Icon=Google Plus
+GenericName=Google Plus
+Comment=Google Plus News Feeds
+Exec=run.wrapper
+Categories=GNOME;GTK;Network;WebBrowser;

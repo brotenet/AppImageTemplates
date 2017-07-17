@@ -187,6 +187,7 @@ ICONFILE="$HOME/.local/share/icons/$DESKTOPFILE_NAME.png"
 if [ ! -f "$ICONFILE" ] ; then
   echo "$ICONFILE is missing. Probably not running ${THIS} from within an AppImage."
   echo "Hence falling back to using .DirIcon"
+  mkdir $HOME/.local/share/icons
   cp $APPDIR/.DirIcon $HOME/.local/share/icons/$DESKTOPFILE_NAME.png
   ICONFILE="$HOME/.local/share/icons/$DESKTOPFILE_NAME.png"
 fi

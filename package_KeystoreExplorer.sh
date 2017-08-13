@@ -6,7 +6,7 @@ BINTRAY_USER=$1
 BINTRAY_REPO=$2
 BINTRAY_API_KEY=$3
 
-DOWNLOAD_URL=https://github.com/kaikramer/keystore-explorer/releases/download/v5.2.2/kse-522.zip
+DOWNLOAD_URL=https://github.com/kaikramer/keystore-explorer/releases/download/v5.e/kse-530.zip
 NAME=KeystoreExplorer
 VERSION=5.2.2
 ARCH=x86_64

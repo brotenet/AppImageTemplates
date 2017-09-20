@@ -15,7 +15,7 @@ DOWNLOAD_URL=https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/dow
 wget $DOWNLOAD_URL -O download.zip
 unzip download.zip -d tmp
 rm download.zip
-mv tmp/*/* $NAME/usr/bin/
+mv tmp/* $NAME/usr/bin/
 rm download.zip
 
 cp _res/run.wrapper $NAME/usr/bin/run.wrapper

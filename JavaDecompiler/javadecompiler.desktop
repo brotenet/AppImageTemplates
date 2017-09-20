@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name=JavaDecompiler
+Icon=javadecompiler
+GenericName=JavaDecompiler
+Comment=Class and Jar File Decompiler
+Exec=run.wrapper
+Categories=Development

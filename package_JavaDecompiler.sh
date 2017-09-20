@@ -4,10 +4,10 @@ BINTRAY_USER=$1
 BINTRAY_REPO=$2
 BINTRAY_API_KEY=$3
 
-NAME=RESTClient
-VERSION=3.6.1
+NAME=JavaDecompiler
+VERSION=1.4.0
 ARCH=x86_64
-DOWNLOAD_URL=https://github.com/wiztools/rest-client/releases/download/$VERSION/restclient-ui-fat-$VERSION.jar
+DOWNLOAD_URL=https://github.com/java-decompiler/jd-gui/releases/download/v$VERSION/jd-gui-$VERSION.jar
 
 wget $DOWNLOAD_URL -O application.jar
 mv application.jar $NAME/usr/bin/application.jar

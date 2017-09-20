@@ -5,7 +5,7 @@ BINTRAY_REPO=$2
 BINTRAY_API_KEY=$3
 
 NAME=SweetHome3D
-VERSION=5.4
+VERSION=5.5
 ARCH=x86_64
 DOWNLOAD_URL=https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-$VERSION/SweetHome3D-$VERSION-linux-x64.tgz
 

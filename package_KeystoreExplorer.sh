@@ -6,9 +6,9 @@ BINTRAY_USER=$1
 BINTRAY_REPO=$2
 BINTRAY_API_KEY=$3
 
-DOWNLOAD_URL=https://github.com/kaikramer/keystore-explorer/releases/download/v5.3/kse-530.zip
+DOWNLOAD_URL=https://github.com/kaikramer/keystore-explorer/releases/download/v5.3.1/kse-531.zip
 NAME=KeystoreExplorer
-VERSION=5.3.0
+VERSION=5.3.1
 ARCH=x86_64
 
 wget $DOWNLOAD_URL -O download.zip

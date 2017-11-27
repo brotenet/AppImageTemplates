@@ -8,7 +8,7 @@ BINTRAY_API_KEY=$3
 
 
 NAME=GlyphrStudio
-VERSION=0.3.0
+VERSION=0.4.0
 ARCH=x86_64
 DOWNLOAD_URL=https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v$VERSION/Glyphr.Studio-linux-x64.zip
 

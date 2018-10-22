@@ -2,4 +2,4 @@
 
 BASE_DIR=${PWD}
 
-$BASE_DIR/bin/SweetHome3D "$@"
+java -Dcom.eteks.sweethome3d.j3d.version=1.5.2 -jar $BASE_DIR/bin/SweetHome3D*.jar "$@"

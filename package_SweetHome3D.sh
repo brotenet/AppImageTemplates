@@ -9,8 +9,8 @@ VERSION=6.0
 ARCH=x86_64
 DOWNLOAD_URL=https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-$VERSION/SweetHome3D-$VERSION.jar
 
-wget $DOWNLOAD_URL -O SweetHome3D.jar
-mv SweetHome3D.jar $NAME/usr/bin/
+wget $DOWNLOAD_URL -O SweetHome3D-$VERSION.jar
+mv SweetHome3D-$VERSION.jar $NAME/usr/bin/
 
 cp _res/run.wrapper $NAME/usr/bin/run.wrapper
 cp _res/AppRun $NAME/AppRun

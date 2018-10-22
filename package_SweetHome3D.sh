@@ -7,13 +7,10 @@ BINTRAY_API_KEY=$3
 NAME=SweetHome3D
 VERSION=6.0
 ARCH=x86_64
-DOWNLOAD_URL=https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-$VERSION/SweetHome3D-$VERSION-linux-x64.tgz
+DOWNLOAD_URL=https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-$VERSION/SweetHome3D-$VERSION.jar
 
-wget $DOWNLOAD_URL -O download.tgz
-mkdir tmp
-tar -xvzf download.tgz -C tmp
-mv tmp/*/* $NAME/usr/bin/
-rm download.tar.gz
+wget $DOWNLOAD_URL -O SweetHome3D.jar
+mv SweetHome3D.jar $NAME/usr/bin/
 
 cp _res/run.wrapper $NAME/usr/bin/run.wrapper
 cp _res/AppRun $NAME/AppRun

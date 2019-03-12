@@ -5,7 +5,7 @@ BINTRAY_REPO=$2
 BINTRAY_API_KEY=$3
 
 NAME=JavaDecompiler
-VERSION=1.4.0
+VERSION=1.4.1
 ARCH=x86_64
 DOWNLOAD_URL=https://github.com/java-decompiler/jd-gui/releases/download/v$VERSION/jd-gui-$VERSION.jar
 

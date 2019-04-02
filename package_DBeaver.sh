@@ -8,7 +8,7 @@ BINTRAY_API_KEY=$3
 
 DOWNLOAD_URL=http://dbeaver.jkiss.org/files/dbeaver-ce-latest-linux.gtk.x86_64.tar.gz
 NAME=DBeaver
-VERSION=6.0.0
+VERSION=6.0.1
 ARCH=x86_64
 
 wget $DOWNLOAD_URL -O download.tar.gz
